@@ -11,7 +11,7 @@ jsDelivr:
 <script src="https://cdn.jsdelivr.com/gh/OblivionOcean/LightScrollPage@main/index.js"></script>
 ```
 ### 自行部署
-[点击下载文件](https://github.com/OblivionOcean/LightScrollPage/raw/main/index.js)
+[点击下载文件](https://github.com/OblivionOcean/LightScrollPage/raw/main/index.min.js)
 
 引入:
 ```html
