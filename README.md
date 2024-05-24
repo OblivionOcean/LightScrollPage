@@ -8,7 +8,7 @@
 
 jsDelivr:
 ```html
-<script src="https://cdn.jsdelivr.com/gh/OblivionOcean/LightScrollPage@main/index.js"></script>
+<script src="https://cdn.jsdelivr.com/gh/OblivionOcean/LightScrollPage@main/index.min.js"></script>
 ```
 ### 自行部署
 [点击下载文件](https://github.com/OblivionOcean/LightScrollPage/raw/main/index.min.js)
