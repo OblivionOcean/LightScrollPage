@@ -1,6 +1,6 @@
 <h1 align="center">LightScrollPage</h1>
 <p align="center">LightScrollPage(简称 “LSP”)，一个基于原生JS的微型滚动动画库，不需要依赖，只需要一个JS文件，源代码小于1KB</p>
-
+<p align="center"><a href="https://github.com/OblivionOcean/LightScrollPage/blob/main/doc/index.html"><img src="https://img.shields.io/badge/JS-Doc-F7DF1E?style=flat-square&logo=javascript&logoColor=fff" alt="JSDOC"></a></p>
 # 如何使用
 ## 引入
 ### CDN
