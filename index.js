@@ -3,7 +3,7 @@
  * @copyright Copyright (c) 2024 Team OblivionOcean
  * @license <a href="https://github.com/OblivionOcean/LightScrollPage/blob/master/LICENSE">MIT License</a>
  * @description 一个基于原生JS的微型滚动动画库，不需要依赖，只需要一个JS文件，源代码小于1KB
- * @version 1.0.0
+ * @version 1.0.1
  * @class
  * @param {string|Element} element 动画盒子的CSS选择器或element对象
  * @returns {ScrollPage} lsp对象
@@ -59,7 +59,7 @@ class ScrollPage {
                 }
                 i.style.display = "none";
             })
-            let pageNum = (-this.element.clientRect.top - ((-this.element.clientRect.top) % (this.element.clientRect.height / this.content.length))) / (this.element.clientRect.height / this.content.length);
+            let pageNum = Math.floor((-this.element.clientRect.top - ((-this.element.clientRect.top) % (this.element.clientRect.height / this.content.length))) / (this.element.clientRect.height / this.content.length));
             this.content[pageNum].style.display = this.content[pageNum].tmp.display;
             event = {
                 pageNum: pageNum,
