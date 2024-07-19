@@ -166,6 +166,6 @@ class ScrollPage {
 // 滚动页面 自动模式处理函数注册
 document.addEventListener("DOMContentLoaded", () => { // 初始化
     for (let i of document.querySelectorAll(".scroll-page")) {
-        new ScrollPage(i)
+        i.sp = new ScrollPage(i)
     }
 })
