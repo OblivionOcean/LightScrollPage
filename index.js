@@ -144,7 +144,7 @@ class ScrollPage {
         this.setAllElements(this.content, (i) => {
             i.tmp = {};
             i.tmp.display = i.style.display;
-            this.setStyle(i, "display:none;position:absolute;top:0;left:0;bottom:unset;transform:none;width:100%;height:100vh;pointer-events:none")
+            this.setStyle(i, "display:none;position:absolute;top:0;left:0;bottom:unset;transform:none;width:100%;height:100vh")
         })
         this.content[0].style.display = this.content[0].tmp.display;
         window.addEventListener("scroll", this._event.bind(this))
