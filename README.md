@@ -38,6 +38,8 @@ LSP配置了JSDoc，你可以方便的用VSCode、IDEA等代码编辑器查看�
 
 这种状态不能使用`lsp.addEventListener`监听，如需监听请[手动操作](#手动操作)
 
+但是你可以使用`<dom>.sp`获取lsp对象，进行操作
+
 ### 手动操作
 ```html
 <div class="scrollPage">
